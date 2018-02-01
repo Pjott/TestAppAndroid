@@ -15,8 +15,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    public void findingSomething(View view) {
-        TextView smth = (TextView) findViewById(R.id.textViewID);
-        smth.setText("Created new text");
+    public void findingGame(View view) {
+        TextView games = (TextView) findViewById(R.id.gameID);
+        games.setText("Created new text");
     }
 }

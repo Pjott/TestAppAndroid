@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">TestAppAndroid</string>
-    <string name="button_text">Button</string>
-    <string name="textView_text">First text</string>
-    <string-array name="string_array">
-        <item>itemToSelect_1</item>
-        <item>itemToSelect_2</item>
-        <item>itemToSelect_3</item>
-        <item>itemToSelect_4</item>
-        <item>itemToSelect_5</item>
+    <string name="button_text">Find Game</string>
+    <string name="game"></string>
+    <string-array name="game_genres">
+        <item>RTS</item>
+        <item>FPS</item>
+        <item>Simulator</item>
+        <item>RPG</item>
     </string-array>
 </resources>

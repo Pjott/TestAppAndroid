@@ -9,29 +9,29 @@
     tools:context="com.example.piotr.testappandroid.MainActivity">
 
     <Spinner
-        android:id="@+id/spinnerID"
+        android:id="@+id/gameGenresID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:entries="@array/string_array"/>
+        android:entries="@array/game_genres"/>
 
     <Button
-        android:id="@+id/buttonID"
+        android:id="@+id/findGameID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:text="@string/button_text"
-        android:onClick="findingSomething"/>
+        android:onClick="findingGame"/>
 
     <TextView
-        android:id="@+id/textViewID"
+        android:id="@+id/gameID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/textView_text" />
+        android:text="@string/game" />
 
 </LinearLayout>
